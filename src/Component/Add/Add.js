@@ -28,17 +28,17 @@ function Add({ addMovie }) {
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <h5>title</h5>
+          <h5>TITLE</h5>
           <input name="title" value={newMovie.title} onChange={handleChange} />
           <br />
-          <h5>description</h5>
+          <h5>DESCRIPTION</h5>
           <input
             name="description"
             value={newMovie.description}
             onChange={handleChange}
           />
           <br />
-          <h5>posterUrl</h5>
+          <h5>URL</h5>
           <input
             name="posterURL"
             value={newMovie.posterURL}
